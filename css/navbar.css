@@ -1,0 +1,38 @@
+.bg-custom {
+  background-color: #731d97 !important;
+  transition: 0.3s;
+  color: #fff !important;
+}
+
+.bg-custom:hover {
+  background-color: #23a5f7 !important;
+  color: #fff !important;
+}
+
+.bg-active {
+  background-color: transparent !important;
+  border-radius: 0px !important;
+  transition: 0.3s;
+  color: #c42bf0 !important;
+  border-bottom: 2px solid #c42bf0;
+}
+
+.navbar {
+  width: 100%;
+  height: 50px;
+}
+
+.link-navbar {
+  color: rgb(82, 76, 76);
+  transition: 0.3s;
+}
+
+.link-navbar:hover::after {
+  content: "";
+  display: block;
+  border-bottom: 3px solid #c42bf0;
+  width: 50%;
+  margin: auto;
+  padding-bottom: 5px;
+  margin-bottom: -8px;
+}

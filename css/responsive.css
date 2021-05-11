@@ -1,0 +1,39 @@
+@media screen and (max-width: 600px) {
+  .img {
+    display: none;
+    width: 500px;
+  }
+  .gambar {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .img {
+    display: none;
+    width: 500px;
+  }
+  .gambar {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 1199pxpx) {
+  .img {
+    display: none;
+    width: 500px;
+  }
+  .gambar {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 992pxpx) {
+  .img {
+    display: none;
+    width: 500px;
+  }
+  .gambar {
+    display: block;
+  }
+}
