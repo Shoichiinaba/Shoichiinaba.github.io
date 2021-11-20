@@ -8,6 +8,7 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous" />
     <link rel="stylesheet" href="css/navbar.css" />
+    <link rel="stylesheet" href="vendor/Magnific-Popup/dist/magnific-popup.css" />
     <link rel="stylesheet" href="css/body.css" />
     <link rel="stylesheet" href="css/responsive.css" />
     <link rel="icon" type="image/png" href="assets/img/logo1title.png" />
@@ -33,13 +34,10 @@
               <a class="nav-link active bg-active link-navbar tebal-sedang me-3" href="#">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link link-navbar tebal-sedang me-3" href="#">Other Service</a>
-            </li>
-            <li class="nav-item">
               <a class="nav-link link-navbar tebal-sedang me-3" href="#">Project</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link link-navbar tebal-sedang me-3" href="#">About</a>
+              <a class="nav-link link-navbar tebal-sedang me-3" href="#">Other Service</a>
             </li>
             <li class="nav-item">
               <a class="nav-link link-navbar tebal-sedang me-3" href="#">Contact</a>
@@ -71,8 +69,8 @@
           <div class="position-absolute top-0 end-0">
             <img src="assets/img/ventor-content.png" class="img" />
           </div>
-          <h1 class="display-1 text-truncate tebal-sedang">Sinergi Inti</h1>
-          <h1 class="display-1 text-truncate tebal-sedang">Solusi</h1>
+          <h1 class="display-1 text-truncate tebal-sedang">Sinergi Inti Solusi</h1>
+          <h1 class="display-1 text-truncate tebal-sedang"></h1>
           <div class="desc mt-4">
             <p>
               Sebuah Perusahaan yang Bergerak di Bidang IT, Komitmen kami adalah memberikan solusi layanan terbaik di bidang instalasi, serta perawatan CCTV, Data Center, Maintenance Komputer, Maintenance Jaringan. Serta Instalasi Komputer
@@ -99,12 +97,12 @@
                 <p>Pemasangan CCTV Outdoor Maupun Indoor (Fixed Dome, IP, Wireless dan PTZ).</p>
               </div>
               <div class="col-lg">
-                <img src="assets/img/undraw_Segment_analysis_re_ocsl.png" alt="analis" class="float-start" />
+                <img src="assets/img/undraw_Internet_on_the_go_re_vben.png" alt="internet" class="float-start" />
                 <h4>Jaringan</h4>
                 <p>Instalasi Jaringan LAN, WAM, Hotspot Area</p>
               </div>
               <div class="col-lg">
-                <img src="assets/img/undraw_Internet_on_the_go_re_vben.png" alt="internet" class="float-start" />
+                <img src="assets/img/quest.png" alt="analis" class="float-start" />
                 <h4>Trobleshoting</h4>
                 <p>Mengatasi Masalah pada perangkat komputer, printer</p>
               </div>
@@ -116,18 +114,177 @@
     <!-- akhir container -->
 
     <!-- pekerjaan -->
-    <div class="container">
+    <!-- <div class="container">
       <div class="row pekerjaan">
         <div class="col">
           <img src="" alt="" />
         </div>
         <div class="col"></div>
       </div>
-    </div>
+    </div> -->
     <!-- akhir pekerjaa -->
 
-    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <!-- project -->
+    <section class="project-area">
+      <div class="container">
+        <div class="project-title pb-5">
+          <h1 class="text-uppercase title-h1">Semua Project</h1>
+        </div>
+        <div class="button-group">
+          <button type="button" class="active" id="btn1" data-filter="*">Semua</button>
+          <button type="button" data-filter=".cctv">CCTV</button>
+          <button type="button" data-filter=".application">Application</button>
+          <button type="button" data-filter=".upcoming">Upcoming</button>
+          <button type="button" data-filter=".bisnis">Bisnis Intelegent</button>
+        </div>
+
+        <div class="row grid">
+          <div class="col-lg-4 col-md-6 col-sm-12 mb-3 element-item cctv">
+            <div class="our-project">
+              <div class="img">
+                <a class="test-popup-link" href="assets/img/project/p1.jpg">
+                  <img src="assets/img/project/p1.jpg" alt="portfolio-1" class="img-fluid" />
+                </a>
+              </div>
+              <div class="title py-4">
+                <h4 class="text-uppercase">Minimul Desing</h4>
+                <span class="text-secondary">CCTV, Portfolio</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12 mb-3 element-item application">
+            <div class="our-project">
+              <div class="img">
+                <a class="test-popup-link" href="assets/img/project/p2.png">
+                  <img src="assets/img/project/p2.png" alt="portfolio-2" class="img-fluid" />
+                </a>
+              </div>
+              <div class="title py-4">
+                <h4 class="text-uppercase">APPS</h4>
+                <span class="text-secondary">MCOKE, Tampilan Member</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12 element-item application">
+            <div class="our-project">
+              <div class="img">
+                <a class="test-popup-link" href="assets/img/project/pk.png">
+                  <img src="assets/img/project/pk.png" alt="portfolio-2" class="img-fluid" />
+                </a>
+              </div>
+              <div class="title py-4">
+                <h4 class="text-uppercase">APPS</h4>
+                <span class="text-secondary">MCOKE, Tampilan Kurir</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12 element-item application">
+            <div class="our-project">
+              <div class="img">
+                <a class="test-popup-link" href="assets/img/project/p3.png">
+                  <img src="assets/img/project/p3.png" alt="portfolio-3" class="img-fluid" />
+                </a>
+              </div>
+              <div class="title py-4">
+                <h4 class="text-uppercase">WEB</h4>
+                <span class="text-secondary">Application, Portfolio</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12 element-item upcoming">
+            <div class="our-project">
+              <div class="img">
+                <a class="test-popup-link" href="assets/img/project/p4.jpg">
+                  <img src="assets/img/project/p4.jpg" alt="portfolio-4" class="img-fluid" />
+                </a>
+              </div>
+              <div class="title py-4">
+                <h4 class="text-uppercase">Fourth Air</h4>
+                <span class="text-secondary">Upcoming, Portfolio</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12 element-item upcoming">
+            <div class="our-project">
+              <div class="img">
+                <a class="test-popup-link" href="assets/img/project/p5.jpg">
+                  <img src="assets/img/project/p5.jpg" alt="portfolio-5" class="img-fluid" />
+                </a>
+              </div>
+              <div class="title py-4">
+                <h4 class="text-uppercase">Muliple fown</h4>
+                <span class="text-secondary">Upcoming, Portfolio</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12 element-item bisnis">
+            <div class="our-project">
+              <div class="img">
+                <a class="test-popup-link" href="assets/img/project/p6.jpg">
+                  <img src="assets/img/project/p6.jpg" alt="portfolio-6" class="img-fluid" />
+                </a>
+              </div>
+              <div class="title py-4">
+                <h4 class="text-uppercase">Accurate</h4>
+                <span class="text-secondary">Following, Portfolio</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12 element-item bisnis">
+            <div class="our-project">
+              <div class="img">
+                <a class="test-popup-link" href="assets/img/project/p7.jpg">
+                  <img src="assets/img/project/p7.jpg" alt="portfolio-7" class="img-fluid" />
+                </a>
+              </div>
+              <div class="title py-4">
+                <h4 class="text-uppercase">Metabase</h4>
+                <span class="text-secondary">Data Visualisation, Portfolio</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12 element-item bisnis">
+            <div class="our-project">
+              <div class="img">
+                <a class="test-popup-link" href="assets/img/project/p8.jpg">
+                  <img src="assets/img/project/p8.jpg" alt="portfolio-8" class="img-fluid" />
+                </a>
+              </div>
+              <div class="title py-4">
+                <h4 class="text-uppercase">Consultan</h4>
+                <span class="text-secondary">Following, Portfolio</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12 element-item upcoming">
+            <div class="our-project">
+              <div class="img">
+                <a class="test-popup-link" href="assets/img/project/p9.jpg">
+                  <img src="assets/img/project/p9.jpg" alt="portfolio-9" class="img-fluid" />
+                </a>
+              </div>
+              <div class="title py-4">
+                <h4 class="text-uppercase">Camera Lens</h4>
+                <span class="text-secondary">Upcoming, Portfolio</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- akhir Project -->
+
+    <!--Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous"></script>
+    <!--  Jquery js file  -->
+    <script src="js/jquery.3.4.1.js"></script>
+    <!-- navbar scroll -->
     <script src="js/onscroll.js"></script>
+    <!-- custom JS -->
+    <script src="js/main.js"></script>
+    <!--  isotope js library  -->
+    <script src="vendor/isotope/isotope.min.js"></script>
+    <!--  Magnific popup -->
+    <script src="vendor/Magnific-Popup/dist/jquery.magnific-popup.min.js"></script>
   </body>
 </html>

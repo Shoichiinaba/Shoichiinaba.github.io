@@ -6,6 +6,12 @@
   .gambar {
     display: block;
   }
+
+  .project-area {
+    font: normal 500 18px/40px;
+    display: none;
+    width: 500px;
+  }
 }
 
 @media screen and (max-width: 800px) {
