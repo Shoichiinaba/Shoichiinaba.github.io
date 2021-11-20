@@ -6,3 +6,4 @@ deployment:
     - /bin/cp -R assets $DEPLOYPART
     - /bin/cp -R css $DEPLOYPART
     - /bin/cp -R js $DEPLOYPART
+    - /bin/cp -R vendor $DEPLOYPART
